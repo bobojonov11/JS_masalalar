@@ -96,6 +96,61 @@
 
 //    7-masala
 
-jhfdjh
+// function incrementDigits(str) {
+//       return str.replace(/\d/g, (digit) => {
+//         return (parseInt(digit) + 1) % 10;
+//       });
+//     }
+
+//     console.log(incrementDigits("abc123"));
+
+
+
+//    8-masala
+
+// function logestIncreasingSubarrey(arr) {
+//   let maxLen = 1, curtLen = 1;
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > arr[i - 1]) {
+//       curtLen++
+//       maxLen = Math.max(maxLen, curtLen);
+//     } else {
+//       curtLen = 1;
+//     }
+//   }
+//   return maxLen;
+// }
+
+// console.log(logestIncreasingSubarrey([10, 20, 30, 10, 40, 50, 52, 55, 6]));
+
+
+
+//    9-masala
+
+// function countOccurrences(arr) {
+//   const result = {};
+//   for (let num of arr) {
+//     result[num] = (result[num] || 0) + 1;
+//   }
+//   return result
+// }
+
+// console.log(countOccurrences([1, 2, 2, 3, 4, 4, 4, 5]));
+
+
+
+//    10-masala
+
+// function matrixSum(matrix) {
+//   let sum = 0;
+//   for (let row of matrix) {
+//     for (let num of row) {
+//       sum += num;
+//     }
+//   }
+//   return sum;
+// }
+
+// console.log(matrixSum([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
 
 
